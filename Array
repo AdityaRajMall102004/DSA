@@ -48,9 +48,9 @@
       ->Fixed Size Window k
             ->(move window farward and add one element and remove the element that fell out)
             ->(Both pointers move together once window size becomes k)
+            ->Problems-: Maximum Sum Subarray of Size K, Permutation in String, Sliding Subarray Beauty etc...
       ->Variable Size Window
             ->(expand right end(r) until some condition or shrink left(l) end to optimize that condition)
             ->Variable window is commonly used in problems involving sums, frequency maps, and repeating characters.
       ->NOTE-->Two pointer also maintain l and r as like variable size window but it work on sorted array with different logic.
 
-[Maximum Sum Subarray of Size K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/)
