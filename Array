@@ -1,1 +1,49 @@
+1-WHAT IS AN ARRAY?
+  An array is a collection of elements stored in continuous (contiguous) memory and accessed using index numbers.
 
+2-WHY ARRAY IS IMPORTANT?
+  Every programming language uses arrays for:
+  ✔ Memory management
+  ✔ Storing lists of data
+  ✔ Searching
+  ✔ Sorting
+  ✔ DP tables
+  ✔ Matrix & strings
+
+3-CHARACTERISTICS OF ARRAY?
+  1️⃣ Stored in contiguous memory
+  2️⃣ Fixed size (in low-level languages)
+  3️⃣ Direct (Random) Access
+  4️⃣ Insertion + Deletion is costly
+
+4-TYPES OF ARRAYS
+  1️⃣ One-dimensional array
+  2️⃣ Two-dimensional array
+  3️⃣ Multidimensional array
+  4️⃣ Dynamic arrays (Python list, C++ vector)
+
+5-arr[i] = *(arr + i)
+
+6-Patterns To Solve Array Problems
+  ->Sliding Window-(Best for continuous subarray questions)
+  ->Two Pointers-(Best for sorted arrays or shrinking/growing ranges)
+  ->Binary Search on Array-(Used for sorted arrays or monotonic functions)
+  ->Prefix Sum-(Used when problem has RANGE sum or differences)
+  ->Hash Map + Array-(Used for frequency and grouping)
+  ->Sorting + Greedy-(Used to get optimal solutions)
+  ->DP on Arrays-(Used when problem depends on previous decisions)
+  ->Monotonic Stack / Queue-(Used for "next greater/smaller" problems)
+
+7-COMMON INTERVIEW TRICKS WITH ARRAYS
+  ✔ If array is sorted → use two pointers or binary search
+  ✔ If problem says continuous → sliding window or prefix sum
+  ✔ If problem says longest / maximum → probably DP or sliding window
+  ✔ If problem involves next greater → monotonic stack
+  ✔ If problem involves range queries → prefix sum
+  ✔ If problem involves K largest/smallest → min-heap or max-heap
+
+8-Explaining all about patterns
+  #Sliding window-
+      Description: A sliding window is a subarray or substring that moves over data to solve problems efficiently in linear time.
+      ->Fixed Size Window
+      ->Variable Size Window
