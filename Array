@@ -51,5 +51,6 @@
       ->Variable Size Window
             ->(expand right end(r) until some condition or shrink left(l) end to optimize that condition)
             ->Variable window is commonly used in problems involving sums, frequency maps, and repeating characters.
-      ->NOTE-->Two pointer also maintain l and r as like variable size window but it work on sorted array woth different logic.
-     [Maximum Sum Subarray of Size K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/)
+      ->NOTE-->Two pointer also maintain l and r as like variable size window but it work on sorted array with different logic.
+
+[Maximum Sum Subarray of Size K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/)
